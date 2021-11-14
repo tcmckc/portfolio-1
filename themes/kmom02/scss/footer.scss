@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 20px;
+
+    a {
+        color: $footer-text-color; 
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+}
+
+.footer>div {
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+    
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    color: $font-color;
+    padding: 20px;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 64em;
+    margin: 2em auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 96%;
+    }
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}

@@ -4,5 +4,5 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/tcmckc/portfolio-1
-      icon: github
+      icon: fab fa-github-alt
 ---

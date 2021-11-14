@@ -1,0 +1,33 @@
+/* Normalize */
+@import '../../node_modules/normalize.css/normalize';
+
+/* Variables */
+@import 'variables';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat&display=swap');
+
+/* External modules */
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/* Internal modules */
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lemonchiffon;
+}
+
+* {
+    color: $font-color;
+}

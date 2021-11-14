@@ -3,11 +3,10 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Välkommen
 ==========================
 
 
-<h2>Välkommen,</h2>
 
 Mitt namn är **Tomoko**. Född och uppvuxen i Tokyo, _Japan_.
 
