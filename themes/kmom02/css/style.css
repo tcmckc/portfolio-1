@@ -6527,6 +6527,14 @@ body {
   justify-content: space-between;
 }
 
+.title {
+  padding-left: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0;
@@ -6537,11 +6545,19 @@ body {
   }
 
   .logo {
-    display: none !important;
+    max-width: 30%;
   }
 
-  .nav-toggle {
-    display: none;
+  .header {
+    flex-direction: column;
+  }
+
+  .site-header {
+    display: block;
+  }
+
+  img {
+    min-width: 200px;
   }
 }
 .title p {
@@ -6601,6 +6617,60 @@ pre code {
   line-height: 1.4;
 }
 
+.technology-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em 1em;
+  width: auto;
+}
+
+.technology-container h1, .technology-container p {
+  grid-column: span 3;
+}
+
+.technology-container .technology {
+  box-shadow: 20px 10px 5px 0px rgba(214, 221, 212, 0.2);
+  height: 5em;
+  border: 1px solid black;
+  padding: 1em;
+  background-image: linear-gradient(to bottom right, #a2ca8f, #fff);
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.technology-article {
+  display: flex;
+  flex-direction: row;
+}
+
+.technology-article .sidebar {
+  width: 30%;
+}
+
+.technology-article .sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.technology-article .article {
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  .technology-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .technology-article .sidebar {
+    display: none;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   background-color: lemonchiffon;
