@@ -1,7 +1,6 @@
 .technology-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    // grid-column: span 3;
+    grid-column: span 3;
     gap: 1em 1em;
     width: auto;
 }
@@ -15,10 +14,15 @@
     height: 5em;
     border: 1px solid $border-color;
     padding: 1em;
-    background-image: linear-gradient(to bottom right, rgb(162, 202, 143), $font-alternative-color); 
+    background-image: linear-gradient(to bottom right, #cfffe9, $font-alternative-color); 
     color: $font-color;
     font-size: 2rem; 
     text-decoration: none;
+    grid-column: span 1;
+}
+
+.technology-container .sqlite {
+    grid-column: span 3;
 }
 
 .technology-article {

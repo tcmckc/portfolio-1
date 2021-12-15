@@ -5,14 +5,7 @@
 
     <div class="main technology-container" role="main">
         {{ content }}
-        
-        {% for page in pages("technology") %}
-            <a href="{{ page.url }}">
-            <div class="technology">
-                {{ page.title }}
-            </div>
-            </a>
-        {% endfor %}
+
     </div>
     
     {% include 'incl/footer.twig' %}

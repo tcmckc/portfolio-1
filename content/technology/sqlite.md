@@ -2,6 +2,7 @@
 Title: SQLite
 Description: SQLite.
 Template: technology
+Class: sqlite
 ---
 
 # SQLite

@@ -2,10 +2,10 @@
 @import '../../node_modules/normalize.css/normalize';
 
 /* Variables */
-@import 'variables';
+@import 'variables-dark';
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Lato&family=Merriweather+Sans:wght@300;400&family=Montserrat&display=swap');
 
 /* External modules */
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -25,14 +25,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: $header-color;
 }
 
 * {
     color: $font-color;
+    font-family: 'Lato', sans-serif;
 }
 
 img {
-    filter: contrast(120%);
+    filter: grayscale(50%);
 }
+

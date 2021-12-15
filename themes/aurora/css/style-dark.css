@@ -6490,19 +6490,15 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #EFFFF6;
+  background-color: lemonchiffon;
   color: black;
   padding: 20px;
 }
 
 .main {
   flex: 1 0 auto;
-  width: 80%;
-  margin: 10px;
-}
-
-.article {
-  padding: 20px;
+  width: 64em;
+  margin: 2em auto;
 }
 
 .header, .footer {
@@ -6572,12 +6568,12 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #CFE8E1;
-  color: black;
+  background-color: darkkhaki;
+  color: darkgreen;
   padding: 20px;
 }
 .footer a {
-  color: black;
+  color: darkgreen;
 }
 .footer .social {
   font-size: 2rem;
@@ -6623,7 +6619,7 @@ pre code {
 
 .technology-container {
   display: grid;
-  grid-column: span 3;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1em 1em;
   width: auto;
 }
@@ -6635,17 +6631,12 @@ pre code {
 .technology-container .technology {
   box-shadow: 20px 10px 5px 0px rgba(214, 221, 212, 0.2);
   height: 5em;
-  border: 1px solid #CFE8D2;
+  border: 1px solid black;
   padding: 1em;
-  background-image: linear-gradient(to bottom right, #cfffe9, #CFE8D2);
+  background-image: linear-gradient(to bottom right, #a2ca8f, #fff);
   color: black;
   font-size: 2rem;
   text-decoration: none;
-  grid-column: span 1;
-}
-
-.technology-container .sqlite {
-  grid-column: span 3;
 }
 
 .technology-article {
@@ -6682,13 +6673,13 @@ pre code {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  background-color: #E8FFE3;
+  background-color: lemonchiffon;
 }
 
 * {
   color: black;
 }
 
-img {
-  filter: contrast(120%);
+.main {
+  background: yellow;
 }
