@@ -109,10 +109,3 @@ Referenser
 - Google Fonts. 2021. Google Fonts. [online] Available at: <https://fonts.google.com/> [Accessed 10 December 2021].
 
 - Niederst Robbins, J., 2018. Learning Web design. 5th ed. O'Reilly.
-
-Övrigt
------------------------
-
-<!-- Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten. -->
-
-Tomoko Svedlund Ishii
