@@ -24,17 +24,56 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 
 
+// h1, h2, h3, h4, h5, h6 {
+//     font-family: 'Lato', sans-serif;
+//     background-color: $header-color;
+// }
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    background-color: $header-color;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    filter: grayscale(20%);
+}
+
+h2 {
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease;
+    animation-delay: 0.3s;
+    animation-direction:normal;
+}
+
+@keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+
+h2 {
+    color: $font-h2-color;
+    text-shadow:  .2em .2em .1em black;
+}
+
+h3 {
+    padding: 5px;
+    border-top-style: double;
+    border-left-style: double;
+    border-color: $font-h3-color;
 }
 
 * {
     color: $font-color;
-    font-family: 'Lato', sans-serif;
-}
-
-img {
-    filter: grayscale(50%);
 }
 

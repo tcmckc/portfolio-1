@@ -2,9 +2,11 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-    <div class="main technology-article" role="main">
+    <div class="main analysis-article" role="main">
+        <div class="article">
+            {{ content  }}
+        </div>
         <div class="sidebar">
-            <br>
             <ul>
             {% for page in pages("analysis") %}
                 <li><a href="{{ page.url }}">
@@ -12,10 +14,6 @@
                 </a></li>
             {% endfor %}
             </ul>
-            </div> 
-
-            <div class="article">
-                {{ content  }}
         </div>
     </div>
     

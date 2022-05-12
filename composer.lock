@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99bc88988bd68da6ffcc6b66edb22392",
+    "content-hash": "d79380e28d8553e965daf00c1e95f493",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -112,16 +112,16 @@
         },
         {
             "name": "mos/cimage",
-            "version": "v0.8.1",
+            "version": "v0.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "024905676145ee8a000fb0b6735ce6f8ba98f427"
+                "reference": "bb60001c3639e75038943e8fda9e2ea81f44a682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/024905676145ee8a000fb0b6735ce6f8ba98f427",
-                "reference": "024905676145ee8a000fb0b6735ce6f8ba98f427",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/bb60001c3639e75038943e8fda9e2ea81f44a682",
+                "reference": "bb60001c3639e75038943e8fda9e2ea81f44a682",
                 "shasum": ""
             },
             "require": {
@@ -171,9 +171,9 @@
             "support": {
                 "docs": "http://dbwebb.se/opensource/cimage",
                 "issues": "https://github.com/mosbth/cimage/issues",
-                "source": "https://github.com/mosbth/cimage/tree/master"
+                "source": "https://github.com/mosbth/cimage/tree/v0.8.2"
             },
-            "time": "2020-06-08T10:38:44+00:00"
+            "time": "2021-10-27T09:40:40+00:00"
         },
         {
             "name": "picocms/pico",

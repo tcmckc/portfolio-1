@@ -5,7 +5,8 @@ Template: technologies
 ---
 
 Teknlogier
-=========================
+-----------------------
+<!-- ========================= -->
 
 Här presenteras de teknologier jag använder.
 
